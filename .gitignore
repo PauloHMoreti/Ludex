@@ -1,0 +1,122 @@
+# ==============================================================================
+# Python - Bytecode, Caches e Ambientes Virtuais
+# ==============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Ambientes Virtuais
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Testes, Cobertura e Linters
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+
+# ==============================================================================
+# Variáveis de Ambiente e Segredos (Chaves IGDB / RAWG)
+# ==============================================================================
+.env
+.env.*
+!.env.example
+
+# ==============================================================================
+# Artefatos do Ludex (Cache de API, Relatórios Excel e Biblioteca Demo)
+# ==============================================================================
+.ludex_metadata_cache.json
+*.xlsx
+~$*.xlsx
+demo_library/
+
+# ==============================================================================
+# ROMs, ISOs e Arquivos de Jogos (Evita versionar binários pesados por engano)
+# ==============================================================================
+*.iso
+*.chd
+*.rvz
+*.wbfs
+*.wia
+*.gcm
+*.ciso
+*.cso
+*.zso
+*.pbp
+*.pkg
+*.xci
+*.nsp
+*.nsz
+*.3ds
+*.cia
+*.nds
+*.gba
+*.gbc
+*.gb
+*.nes
+*.fds
+*.sfc
+*.smc
+*.z64
+*.n64
+*.v64
+*.smd
+*.gen
+*.cdi
+*.gdi
+*.cue
+*.bin
+*.mdf
+*.img
+*.zip
+*.7z
+*.rar
+
+# ==============================================================================
+# IDEs, Editores e Sistema Operacional
+# ==============================================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS / Linux
+.DS_Store
+.AppleDouble
+.LSOverride
